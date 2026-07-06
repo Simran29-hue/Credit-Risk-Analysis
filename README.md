@@ -108,7 +108,7 @@ I created 7 new columns that did not exist in the original data:
 | default_label | Converts 0 and 1 into readable text |
 | repeat_defaulter | Combines current and past default into 4 segments |
 
-![Excel Working Data](Excel_Working_Data_Preview.png)
+![Excel Working Data](05_Screenshots/Excel/Excel_Working_Data_Preview.png)
 
 ---
 
@@ -150,11 +150,11 @@ GradeRanked AS (
 SELECT * FROM GradeRanked ORDER BY Risk_Rank;
 ```
 
-![Overall Default Rate](SQL_02_Overall_Default_Rate.png)
+![Overall Default Rate](05_Screenshots/SQL/SQL_02_Overall_Default_Rate.png)
 
-![Default Rate By Grade](SQL_03_Default_By_Grade.png)
+![Default Rate By Grade](05_Screenshots/SQL/SQL_03_Default_By_Grade.png)
 
-![Bank Recommendation](SQL_07_Bank_Recommendation.png)
+![Bank Recommendation](05_Screenshots/SQL/SQL_07_Bank_Recommendation.png)
 
 ---
 
@@ -191,15 +191,15 @@ Built a Logistic Regression model using Scikit-learn:
 - Built a single customer predictor — input their details,
   get a default probability percentage
 
-![Dataset Loaded](nb1_01_dataset_loaded.png)
+![Dataset Loaded](05_Screenshots/Python/nb1_01_dataset_loaded.png)
 
-![Correlation Chart](nb3_03_correlation_chart.png)
+![Correlation Chart](05_Screenshots/Python/nb3_03_correlation_chart.png)
 
-![Model Accuracy](nb4_05_model_accuracy.png)
+![Model Accuracy](05_Screenshots/Python/nb4_05_model_accuracy.png)
 
-![Feature Importance](nb4_07_feature_importance.png)
+![Feature Importance](05_Screenshots/Python/nb4_07_feature_importance.png)
 
-![Single Customer Prediction](nb4_08_single_prediction.png)
+![Single Customer Prediction](05_Screenshots/Python/nb4_08_single_prediction.png)
 
 ---
 
@@ -232,13 +232,13 @@ Grade G at 98% is the most visually dramatic thing in this
 project. Employment length analysis shows less than 1 year
 employment customers default at 36.7%.
 
-![Page 1 Risk Overview](PBI_Page1_Risk_Overview.png)
+![Page 1 Risk Overview](05_Screenshots/PowerBI/PBI_Page1_Risk_Overview.png)
 
-![Page 2 Customer Profile](PBI_Page2_Customer_Profile.png)
+![Page 2 Customer Profile](05_Screenshots/PowerBI/PBI_Page2_Customer_Profile.png)
 
-![Page 3 Loan Analysis](PBI_Page3_Loan_Analysis.png)
+![Page 3 Loan Analysis](05_Screenshots/PowerBI/PBI_Page3_Loan_Analysis.png)
 
-![Page 4 High Risk Deep Dive](PBI_Page4_High_Risk.png)
+![Page 4 High Risk Deep Dive](05_Screenshots/PowerBI/PBI_Page4_High_Risk.png)
 
 ---
 
