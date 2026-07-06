@@ -58,7 +58,7 @@ These were the findings that surprised me or stood out the most:
 | Excel 2019 | Cleaned raw data, handled missing values, created 7 derived columns |
 | SQL Server SSMS | Wrote 24 queries from basic to advanced |
 | Python Google Colab | EDA, 7 charts, correlation analysis, ML model |
-| Power BI 2.155 | 4-page interactive finance dashboard, 13 DAX measures |
+| Power BI 2.155 | 4-page interactive finance dashboard, 14 DAX measures, 8 Calculated Column |
 
 ---
 
@@ -80,7 +80,7 @@ These were the findings that surprised me or stood out the most:
 
 - **Source:** Kaggle — Credit Risk Dataset
 - **Size:** 32,581 rows, 12 original columns
-- **Target variable:** loan_status (0 = repaid, 1 = defaulted)
+- **Target variable:** loan_status (0 = non-defaulted, 1 = defaulted)
 
 The dataset covers loan applicants with details like age, income,
 employment length, loan amount, interest rate, loan grade, and
@@ -209,7 +209,7 @@ The dashboard connects directly to SQL Server rather than the
 Excel file — so the data flows through the complete pipeline:
 Excel → SQL → Power BI.
 
-**Pages: 4 | DAX Measures: 13 | Theme: Dark Navy Finance**
+**Pages: 4 | DAX Measures: 14 | Calculated Column: 8| Theme: Dark Navy Finance**
 
 **Page 1 — Risk Overview**
 Five KPI cards, gradient bar chart for loan grade risk, 100%
